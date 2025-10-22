@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #e0ffe0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #0d0d0d;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ff88;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #e0ffe0;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00ff88;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #001a0a, #00331a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #00ff88;
+}
+
+.hero-content p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px 30px;
+  background: #00ff88;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #00cc66;
+}
+
+.features, .about, .contact {
+  padding: 60px;
+  text-align: center;
+}
+
+.features h2, .about h2, .contact h2 {
+  color: #00ff88;
+  margin-bottom: 25px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background: #0f2616;
+  border: 1px solid #00ff88;
+  border-radius: 20px;
+  width: 280px;
+  margin: 15px;
+  padding: 25px;
+  transition: transform 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  background: #0d0d0d;
+  padding: 20px;
+  text-align: center;
+  color: #00ff88;
+}
